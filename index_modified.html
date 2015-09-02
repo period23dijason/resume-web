@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB">
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+	
+	<link rel="stylesheet" type="text/css" href="screen2.css" media="screen" />
+</head>
+<body>
+
+<div id="header">
+
+<h1>2 column website</h1>
+
+</div>
+<div class="leftmenu">
+	<div class="colleft">
+		<div class="col1">
+			<!-- Column 1 start -->
+			
+			<dl>
+				<dt><strong>800 x 600</strong></dt>
+				<dd>Left column: 162 pixels</dd>
+				<dd>Main page: 550 pixels</dd>
+				<dt><strong>1024 x 768</strong></dt>
+
+				<dd>Left column: 210 pixels</dd>
+				<dd>Main page: 709 pixels</dd>
+			</dl>
+			<h2>The nested div structure</h2>
+			<p>I've colour coded each div so it's easy to see:</p>
+			
+			<p>The header, colmask and footer divs are 100% wide and stacked vertically one after the other. Colleft is inside colmask. The two column content divs (col1 &amp; col2) are inside colleft. Notice that the main content column (col1) comes before the side column.</p>
+			<!-- Column 1 end -->
+		</div>
+		<div class="col2">
+			<!-- Column 2 start -->
+		
+			<h2>No CSS hacks</h2>
+			<p>The CSS used for this layout is 100% valid and hack free. To overcome Internet Explorer's broken box model, no horizontal padding or margins are used. Instead, this design uses percentage widths and clever relative positioning.</p>
+			
+		
+			<!-- Column 2 end -->
+		</div>
+        <!-- colleft end -->
+	</div>
+    <!-- colmask -->
+</div>
+<div id="footer">
+	<p>footer for the website, add contact info here</p>
+</div>
+
+</body>
+</html>
